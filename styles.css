@@ -14,3 +14,18 @@ body {
     height: 500px;
   }
   
+  .grid {
+    
+    display: grid;
+    background-color: hsl(200, 13%, 87%);
+    grid-template-rows: repeat(10, 50px);
+    grid-template-columns: repeat(10, 50px);
+    flex: 1 1 0;
+
+  }
+  
+  .grid div {
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+ 
